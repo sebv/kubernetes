@@ -96,11 +96,11 @@ readonly KUBE_TEST_PORTABLE=(
 # in 'build/build-image/Dockerfile'
 readonly KUBE_CLIENT_PLATFORMS=(
   linux/amd64
-  linux/386
-  linux/arm
-  darwin/amd64
-  darwin/386
-  windows/amd64
+  #linux/386
+  #linux/arm
+  #darwin/amd64
+  #darwin/386
+  #windows/amd64
 )
 
 # Gigabytes desired for parallel platform builds. 8 is fairly
